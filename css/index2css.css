@@ -1,0 +1,470 @@
+/*fecha*/
+.bSP {
+width: 90px;
+height: 45px;
+border-color:#46a7f5;
+background:linear-gradient(to bottom, #006699 10%, #00334d 100%);
+border-radius: 20px;
+box-shadow:inset 0px 1px #006699 0px 0px #d7ecfd;
+color:#fff;
+text-shadow:0px 1px 0px #528009;
+margin-left: 150px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'century gothic';
+  -webkit-text-stroke: 1px solid black;
+}
+.bSP:active {
+position:relative;
+top:2px;
+}
+.bSP:hover {
+background:linear-gradient(to bottom, #0099e6 5%, #0077b3 100%);
+}
+#regiao{
+	font-family: 'century gothic';
+	font-size: 60px;
+	margin-left: 40px;
+	color: white;
+}
+.regiao1{
+  font-family: 'century gothic';
+  font-size: 30px;
+  margin-left: 40px;
+  color: white;
+}
+.desc{
+  font-family: 'century gothic';
+  font-size: 20px;
+  margin-left: 60px;
+  color: white;
+}
+
+#salva{
+    margin-left: 60px;
+    width: 600px;
+    height:400px;
+    background-image:url(salvador.jpg);
+    background-repeat: no-repeat;
+
+}
+#salva:hover{
+  background-image:url(salvador1.jpg);
+  background-repeat: no-repeat;
+}
+/*==============================================================*/
+#caj{
+  font-family: century gothic;
+  font-size: 70px;
+  color: white;
+  float: left;
+  margin: 15% 33% 1%;
+}
+#caj1{
+  font-family: century gothic;
+  font-size: 20px;
+  color: white;
+  float: left;
+  margin: 0% 30% 10% 37.5%;
+}
+/*==============================================================*/
+#myImg {
+  margin-left: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  float: left;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  font-family: century gothic;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+    #divNav{
+      width: auto;
+      height: auto;
+    }
+/*====================================================================*/
+    .menu{
+     position: fixed;
+    }
+/*====================================================================*/
+    #centro{
+      background-image: url('../img/cajamar.jpg');
+      background-size: cover;
+      width:100%;
+      height:35%;
+      float: left;
+	  border-radius:30px;
+    }
+    #cajesc{
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+	  border-radius:30px;
+    }
+    .divTudo{
+      margin: 5.3% 15% 0 15%;
+    }
+	#divCon{
+	 background: #292929;
+     width: 96%;
+     height: 62%;
+     float: left;
+     margin: 2%;
+     border-radius:10px;
+	}
+/*====================================================================*/
+    #divCont{
+      margin-left: 10px;
+      width: 98%;
+      height: 755px;
+    }
+    .modal-container{
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,.5);
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 2000;
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-container.mostrar{
+      display: flex;
+    }
+/*=======================================================*/
+    .modal1{
+      background: white;
+      width: 40%;
+      min-width: 300px;
+      padding: 40px;
+      border: 10px solid #00334D;
+      box-shadow: 0 0 0 10px white;
+      position: relative;
+    }
+	.moddif{
+	  width: 50%;
+	}
+	.titulo{
+      font-family: 'century gothic';
+      color: #00334D;
+      font-size: 30px;
+      float:left;
+      margin: 0 11%;
+      text-align:center;
+    }
+	.modalevenbas{
+	 margin:1% 0;
+	 width: 100%;
+	}
+    #icone{
+     float:left;
+     margin: 1% 33%;
+    }
+    #tempcid{
+
+    }
+	.habi{
+      width: 100px;
+      height: 100px;
+      margin: 0.5% 13%;
+    }
+	.modalevenimg{
+	 width: 20%;
+	 height: 40px;
+	}
+	.tex{
+	  font-family: 'century gothic';
+	  font-size: 20px;
+	  text-align: center;
+	}
+	.num{
+ 	 font-family: 'century gothic';
+	  font-size: 20px;
+ 	  color: #00334D;
+	 text-align: center;
+	}
+	#seg{
+	 color: green;
+	}
+	.num1{
+ 	  color: green;
+	}
+/*=======================================================*/
+    @keyframes modal1{
+      from{
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+      }
+      to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+      }
+}
+.mostrar .modal1{
+  animation: modal1 .3s;
+}
+    .fecha{
+      position: absolute;
+      font-size: 1.2em;
+      top: -30px;
+      right: -30px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      border: 4px solid #00334D;
+      background: red;
+      color: black;
+      font-family: 'century gothic';
+      cursor: pointer;
+      box-shadow: 0 4px 4px 0 #00334D;
+	  box-sizing:20px;
+    }
+/*======================================================================*/
+    .div15icon{
+      width: 74px;
+      height: 74px;
+    }
+	.div15 {
+     color: white;
+     float: left;
+     width: 100%;
+	 height: 31%;
+	 margin: 3% 0;
+	 background: #131313;
+	 border-radius:50px;
+    }
+	#div14{
+     height: 38%;
+	 width:5.8%;
+	 margin: 20% 0 0 3%;
+	 float: left;
+	 position: fixed;
+	}
+/*======================================================================*/
+.texto1{
+  margin-left: 10px;
+  font-family: 'century gothic';
+  font-size: 20px;
+  color: white;
+  transform: translateY(0.2in);
+  padding-right:70px;
+}
+.sld{
+  margin-left: 400px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+}
+#slider{
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float:left;
+  margin: 3% 23%;
+}
+.btSlider{
+  font-family: 'century gothic';
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 4%;
+  height:30%;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  border: none;
+}
+#dvload{
+  width: 100%;
+  height: 5px;
+  margin-top: 55%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#dvbarra{
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+
+}
+#mapa{
+  margin-right: 10px;
+  float: right;
+}
+#data{
+  transform: translateX(4.5em);
+}
+/*=====================================================================*/
+.tx{
+  margin:4% 32%;
+  font-family: Century gothic;
+  font-size: 40px;
+  color: white;
+  float: left;
+}
+.mTxt{
+  text-align: justify;
+  font-family: century gothic;
+  font-size: 20px;
+  color: white;
+  float: left;
+  margin:0 7%;
+}
+/*========================================================================*/
+.classname {
+	background-color:#000000;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+text-indent:0;
+	border:1px solid white;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:50px;
+	font-weight:bold;
+	font-style:normal;
+height:57px;
+	line-height:57px;
+width:58px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 0px 0px #0d3866;
+  margin-left: 10px;
+  margin-top: 10px;
+}.classname:hover {
+	background-color:#0c3554;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+.classname:visited{
+  color: yellow;
+}
+
+.classname1 {
+	background-color:#000000;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+text-indent:0;
+	border:1px solid white;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:40px;
+	font-weight:bold;
+	font-style:normal;
+height:57px;
+	line-height:57px;
+width:58px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 0px 0px #0d3866;
+  margin-left: 10px;
+  margin-top: 10px;
+}.classname1:hover {
+	background-color:#0c3554;
+}.classname1:active {
+	position:relative;
+	top:1px;
+}
+.classname1:visited{
+  color: white;
+}

@@ -1,0 +1,55 @@
+.errado {
+  width: 235px;
+  padding: 1px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  background: #b71c1c;
+  transform: translateX(210%);
+  text-align: center;
+  animation: animacao 3s;
+  animation-fill-mode: forwards;
+}
+.errado p {
+  border-radius: 6px;
+  border: 5px solid #b71c1c;
+  margin: 3px;
+  color: white;
+  font-family: century gothic, sans-serif;
+  font-size: 12px;
+  animation: animacao 3.2s;
+  animation-fill-mode: forwards;
+}
+.certo {
+  width: 235px;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  transform: translateX(160%);
+  text-align: center;
+  background: #00c853;
+  animation: animacao 3.2s;
+  animation-fill-mode: forwards;
+}
+.certo p {
+  border-radius: 6px;
+  border: 5px solid #00c853;
+  margin: 3px;
+  color: white;
+  font-family: century gothic, sans-serif;
+  font-size: 12px;
+  animation: animacao 3.2s;
+  animation-fill-mode: forwards;
+}
+@keyframes animacao {
+  0% {
+    top: 0px;
+    border-radius: 6px;
+  }
+  100% {
+    top: 90px;
+    visibility: hidden;
+    border-radius: 6px;
+  }
+}

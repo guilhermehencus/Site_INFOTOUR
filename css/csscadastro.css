@@ -1,0 +1,149 @@
+body {
+  background-color: #141f1f;
+  margin: 0;
+  padding: 0;
+
+  font-family: "century gothic";
+}
+h1 {
+  color: white;
+}
+div {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+th {
+  color: white;
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal;
+  padding: 10px 20px;
+  font-family: "century gothic";
+}
+input,
+select {
+  width: 99%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+.tele {
+  width: 49%;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: unset !important;
+  outline: 0;
+  box-sizing: border-box;
+  color: white;
+}
+input[type="post"] {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 2px 2px 3px #00334d;
+  -moz-box-shadow: 2px 2px 3px #00334d;
+  -webkit-box-shadow: 2px 2px 3px #00334d;
+  background: #cccccc;
+  border: 1px solid #00334d;
+}
+
+input[type="post"]:hover {
+  background: #ffffff;
+  border: 2px solid #00334d;
+}
+
+input[type="submit"] {
+  background: #00334d;
+  color: #ffffff;
+}
+input {
+  transform: translateX(60px);
+}
+input[type="password"],
+select {
+  font-family: "century gothic";
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 2px 2px 3px #00334d;
+  -moz-box-shadow: 2px 2px 3px #00334d;
+  -webkit-box-shadow: 2px 2px 3px #00334d;
+  background: #cccccc;
+  border: 1px solid #00334d;
+}
+.errado {
+  width: 235px;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  background: #b71c1c;
+  transform: translateX(160%);
+  text-align: center;
+  animation: animacao 3s;
+  animation-fill-mode: forwards;
+}
+.errado p {
+  border-radius: 6px;
+  border: 5px solid #b71c1c;
+  margin: 3px;
+  color: white;
+  font-family: century gothic, sans-serif;
+  font-size: 12px;
+  animation: animacao 3.2s;
+  animation-fill-mode: forwards;
+}
+.correto {
+  width: 235px;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  transform: translateX(160%);
+  text-align: center;
+  background: #00c853;
+  animation: animacao 3.2s;
+  animation-fill-mode: forwards;
+}
+.correto p {
+  border-radius: 6px;
+  border: 5px solid #00c853;
+  margin: 3px;
+  color: white;
+  font-family: century gothic, sans-serif;
+  font-size: 12px;
+  animation: animacao 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes animacao {
+  0% {
+    top: 0px;
+    border-radius: 6px;
+  }
+  100% {
+    top: 100px;
+    visibility: hidden;
+    border-radius: 6px;
+  }
+}
+input[type="password"]:hover {
+  background: #ffffff;
+  border: 2px solid #00334d;
+}
+.botao {
+  width: 190px;
+  height: 50px;
+}
+input[type="submit"] {
+  font-family: "century gothic";
+}
+input[type="submit"]:hover {
+  font-family: "century gothic";
+  background: #0f0f0a;
+}
