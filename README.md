@@ -15,9 +15,11 @@ O site desenvolvido teve o propósito de informar os diferentes pontos turístic
  <div>  &nbsp; <img src="https://user-images.githubusercontent.com/111579476/187040149-d56f4aa4-3836-4821-8ed1-4ff58f3da479.jpg"/> </div>  
  <p align = "justify"> No caso do usuário não conseguisse logar na plataforma, apareceria uma mensagem que pedia para consultar se os dados foram digitados 
  correspondendo ao encontrado no banco do sistema ou deveria ir na opção “Cadastre-se”, caso fosse sua primeira visita. A opção “Voltar” era justamente acessar uma página que se encontrava anteriormente no site consultando o histórico do navegador. </p>
- <h4>  &nbsp; Página de perfil: </h4>
+ <h4>  &nbsp; Página de perfil: </h4> 
+ <br>
  <div>  &nbsp; <img src="https://user-images.githubusercontent.com/111579476/187039839-42abd051-93f3-4d6a-a516-13e6a2585593.png" /> </div>  
  <h4>  &nbsp; Página de buscar região: </h4>
+ <br>
  <div>  &nbsp; <img src="https://user-images.githubusercontent.com/111579476/187039911-424715fd-d454-4872-ae37-653090c7e10b.jpg"/> </div>  
  <p align = "justify"> O usuário poderia procurar por um local que estivesse disponível na plataforma. Empregava a mesma funcionalidade em relação ao cadastro, a diferença era na questão do sistema achar no banco se o lugar tinha sido criado e estava aberto para o público ver. </p>
   <h4>  &nbsp; Página da cidade: </h4>
